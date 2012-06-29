@@ -4,8 +4,10 @@ body {
 }
 
 .parent-square {
-  float: left;
-  overflow: hidden;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: .5;
 }
 
   .parent-square-x {
@@ -20,19 +22,27 @@ body {
 
   }
 
+  .parent-square-rotate-x {
+
+  }
+
+  .parent-square-rotate-y {
+
+  }
+
   .square {
     height: 100px;
     width: 100px;
   }
 
-.pink {
-  background: rgba(255,0,128,.5);
+.pink .square {
+  background: rgb(255,0,128);
 }
 
-.yellow {
-  background: rgba(255,255,128,.5);
+.yellow .square {
+  background: rgb(255,255,128);
 }
 
-.teal {
-  background: rgba(0,192,255,.5);
+.teal .square {
+  background: rgb(0,192,255);
 }
