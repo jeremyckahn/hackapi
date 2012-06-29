@@ -4,8 +4,8 @@ body {
 }
 
 .parent-square {
-  height: 100px;
-  width: 100px;
+  float: left;
+  overflow: hidden;
 }
 
   .parent-square-x {
@@ -14,6 +14,15 @@ body {
 
   .parent-square-y {
 
+  }
+
+  .parent-square-rotate {
+
+  }
+
+  .square {
+    height: 100px;
+    width: 100px;
   }
 
 .pink {
