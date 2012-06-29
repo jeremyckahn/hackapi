@@ -59,8 +59,8 @@
   kapi.addActor(tealRotateX);
   kapi.addActor(tealRotateY);
 
-  var stop1 = 1500;
-  var stop2 = 2000;
+  var stop1 = 2000;
+  var stop2 = 2500;
   pinkX
     .keyframe(0, {
       transform: 'translateX(0px)'
@@ -89,6 +89,72 @@
     })
     .keyframe(stop1, {
       transform: 'rotate(360deg)'
+    }, {
+      transform: 'easeFromTo'
+    })
+    .wait(stop2);
+
+  yellowY
+    .keyframe(0, {
+      transform: 'translateY(0px)'
+    })
+    .keyframe(stop1, {
+      transform: 'translateY(400px)'
+    }, {
+      transform: 'easeFromTo'
+    })
+    .wait(stop2);
+
+  yellowRotateX
+    .keyframe(0, {
+      transform: 'rotateX(0deg)'
+    })
+    .keyframe(stop1, {
+      transform: 'rotateX(360deg)'
+    }, {
+      transform: 'easeFromTo'
+    })
+    .wait(stop2);
+
+  tealX
+    .keyframe(0, {
+      transform: 'translateX(0px)'
+    })
+    .keyframe(stop1, {
+      transform: 'translateX(200px)'
+    }, {
+      transform: 'easeInOutBack'
+    })
+    .wait(stop2);
+
+  tealY
+    .keyframe(0, {
+      transform: 'translateY(0px)'
+    })
+    .keyframe(stop1, {
+      transform: 'translateY(200px)'
+    }, {
+      transform: 'easeInOutBack'
+    })
+    .wait(stop2);
+
+  tealRotate
+    .keyframe(0, {
+      transform: 'rotate(0deg)'
+    })
+    .keyframe(stop1, {
+      transform: 'rotate(1080deg)'
+    }, {
+      transform: 'easeFromTo'
+    })
+    .wait(stop2);
+
+  tealRotateY
+    .keyframe(0, {
+      transform: 'rotateY(0deg)'
+    })
+    .keyframe(stop1, {
+      transform: 'rotateY(1080deg)'
     }, {
       transform: 'easeFromTo'
     })

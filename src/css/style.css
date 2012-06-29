@@ -7,7 +7,6 @@ body {
   left: 0;
   position: absolute;
   top: 0;
-  opacity: .5;
 }
 
   .parent-square-x {
@@ -40,7 +39,7 @@ body {
 }
 
 .yellow .square {
-  background: rgb(255,255,128);
+  background: #BADA55;
 }
 
 .teal .square {
