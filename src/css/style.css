@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.parent-square {
+  height: 100px;
+  width: 100px;
+}
+
+  .parent-square-x {
+
+  }
+
+  .parent-square-y {
+
+  }
+
+.pink {
+  background: rgba(255,0,0,.5);
+}
+
+.yellow {
+  background: rgba(255,255,128,.5);
+}
+
+.teal {
+  background: rgba(0,128,255,.5);
+}
